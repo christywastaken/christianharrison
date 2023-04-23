@@ -1,20 +1,15 @@
 <template>
-  <form @submit.prevent="submitForm">
-    <div class="flex flex-col items-center justify-center">
-      <label for="name">Name:</label>
-      <input type="text" id="name" v-model="form.name" required />
-    </div>
-    <div class="flex flex-col items-center justify-center my-4">
-      <label for="email">Email:</label>
-      <input type="email" id="email" v-model="form.email" required />
-    </div>
-    <div class="flex flex-col items-center justify-center my-4">
-      <label for="message">Message:</label>
-      <textarea id="message" v-model="form.message" required></textarea>
-    </div>
-    <div class="flex flex-col items-center justify-center px-16 my-4">
-      <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
-    </div>
+  <form class="flex flex-col items-center justify-center px-4 py-4" @submit.prevent="submitForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" v-model="form.name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" v-model="form.email" required />
+
+    <label for="message">Message:</label>
+    <textarea id="message" v-model="form.message" required></textarea>
+
+    <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
   </form>
 </template>
 
