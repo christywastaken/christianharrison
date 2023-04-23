@@ -8,7 +8,9 @@ export default async (to: string | undefined, from: string, subject: string, tex
   try {
     await sgMail.send(email);
     console.log("-- Email Sent --");
+    return 'OK'
   } catch (err) {
     console.error("-- Error sending email: ", err, " --");
+    throw Error("Sendgrid error")
   }
 };

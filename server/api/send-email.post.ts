@@ -4,7 +4,7 @@ export default defineEventHandler(async (request: any) => {
   const from = "team@sendjoy.app";
   const subject = "Contact from ChristianHarrison.co.uk";
   const text = "test_text";
-  const html = `<strong>From:</strong> ${body.name}<br><strong>Email:</strong> ${body.email}<br><br><strong>Message:</strong><br>${body.request}`;
+  const html = `<strong>From:</strong> ${body.name}<br><strong>Email:</strong> ${body.email}<br><br><strong>Message:</strong><br>${body.message}`;
 
   try {
     await sendGrid(to, from, subject, text, html);
