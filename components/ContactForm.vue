@@ -1,18 +1,20 @@
 <template>
   <form @submit.prevent="submitForm">
-    <div>
+    <div class="flex flex-col items-center justify-center">
       <label for="name">Name:</label>
       <input type="text" id="name" v-model="form.name" required />
     </div>
-    <div>
+    <div class="flex flex-col items-center justify-center my-4">
       <label for="email">Email:</label>
       <input type="email" id="email" v-model="form.email" required />
     </div>
-    <div>
+    <div class="flex flex-col items-center justify-center my-4">
       <label for="message">Message:</label>
       <textarea id="message" v-model="form.message" required></textarea>
     </div>
-    <button type="submit">Send</button>
+    <div class="flex flex-col items-center justify-center px-16 my-4">
+      <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
+    </div>
   </form>
 </template>
 
