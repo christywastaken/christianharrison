@@ -1,10 +1,8 @@
 <template>
-  <a :href="link" target="_blank">
-    <div class="flex flex-col mb-8 justify-center">
-      <h2 class="text-4xl font-bold">{{ title }}</h2>
-      <p class="italic mb-4">{{ about }}</p>
-      <img :src="imageSrc" class="object-contain" />
-    </div>
+  <a :href="link" target="_blank" class="flex flex-col justify-center bg-slate-200 p-4 my-8 rounded-md">
+    <h2 class="text-4xl font-bold">{{ title }}</h2>
+    <p class="italic mb-4">{{ about }}</p>
+    <img :src="imageSrc" class="object-contain rounded-md" />
   </a>
 </template>
 
