@@ -25,7 +25,7 @@
       title="iOS App for SendJoy Backend Utilities"
       about="test about section that reads like this"
       link="https://github.com/christywastaken/"
-      image-src="/blog_post_images/tweet-sentiment-anlysis.png"
+      image-src="/blog_post_images/ios-app-sendjoy.png"
       class="max-w-2xl"
     />
 
