@@ -1,7 +1,6 @@
 <template>
   <div>
-  <NavigationHeader />
+  <NavigationHeader class="sticky top-0"/>
     <NuxtPage />
-    
   </div>
 </template>

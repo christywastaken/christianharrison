@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-around px-[10%] h-[48px]">
+  <div class="flex items-center justify-around px-[10%] h-[48px] bg-white">
     <NuxtLink :to="{ name: 'index' }">Home</NuxtLink>
     <NuxtLink :to="{ name: 'contact' }">Contact</NuxtLink>
   </div>
