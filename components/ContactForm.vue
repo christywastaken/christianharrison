@@ -3,10 +3,10 @@
     <label for="name">Name:</label>
     <input type="text" id="name" v-model="form.name" required />
 
-    <label for="email">Email:</label>
+    <label class="pt-4" for="email">Email:</label>
     <input type="email" id="email" v-model="form.email" required />
 
-    <label for="message">Message:</label>
+    <label class="pt-4" for="message">Message:</label>
     <textarea id="message" v-model="form.message" required></textarea>
 
     <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
