@@ -1,13 +1,10 @@
 <template>
   <form class="flex flex-col items-center justify-center px-4 py-4" @submit.prevent="submitForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" v-model="form.name" required />
+    <input class="my-4 w-full px-5 text-white bg-transparent border-b-2 h-10" type="text" id="name" v-model="form.name" placeholder="Your name" required />
+    
+    <input class="my-4 w-full px-5 text-white bg-transparent border-b-2 h-10" type="email" id="email" v-model="form.email" required placeholder="Your email" />
 
-    <label class="pt-4" for="email">Email:</label>
-    <input type="email" id="email" v-model="form.email" required />
-
-    <label class="pt-4" for="message">Message:</label>
-    <textarea id="message" v-model="form.message" required></textarea>
+    <textarea class="my-4 w-full px-5 text-white bg-transparent border-b-2 h-10" id="message" v-model="form.message" required placeholder="Your message for me"></textarea>
 
     <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
   </form>

@@ -1,7 +1,8 @@
 <template>
-  <div class="mx-auto container bg-red-300">
-    <h1 class="text-3xl font-bold underline">Contact</h1>
-    <ContactForm />
+  <div class="min-h-screen bg-primary">
+    <div class="mx-auto container">
+      <h1 class="text-3xl font-bold underline"></h1>
+      <ContactForm />
+    </div>
   </div>
-  
 </template>
