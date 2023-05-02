@@ -1,8 +1,8 @@
 <template>
-  <div class="right-0 top-0 flex flex-col pt-8 min-h-screen w-40 bg-glass border-l-2 border-slate-300 z-50">
+  <div class="right-0 top-0 flex flex-col pt-8 min-h-screen w-40 bg-glass border-l-2 border-white z-50">
     <div class="overflow-hidden">
       <div class="flex justify-center flex-col">
-        <ul class="flex flex-col py-6 text-lg text-slate-200">
+        <ul class="flex flex-col py-6 text-lg text-black">
           <li
             v-for="(item, index) in menuItems"
             :key="index"
