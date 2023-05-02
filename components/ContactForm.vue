@@ -20,16 +20,18 @@
       autocomplete="off"
     />
 
-    <textarea
-      class="my-4 w-full px-5 text-white bg-transparent border-b-2 h-10 focus:outline-none focus:bg-transparent"
+    <ResizeableTextInput
+      class="my-4 w-full px-5 text-white bg-transparent border-b-2 h-10 resize-y focus:outline-none focus:bg-transparent"
       id="message"
       v-model="form.message"
       required
       placeholder="Your message for me"
       autocomplete="off"
-    ></textarea>
+    />
 
-    <button class="flex items-center justify-center rounded-full bg-gray-400 px-8" type="submit">Send</button>
+    <button class="flex items-center justify-center rounded-md px-8 bg-slate-100" type="submit">
+      Send <Icon name="paperplane" class="m-2 h-4 w-4 stroke-black"></Icon>
+    </button>
   </form>
 </template>
 
@@ -72,5 +74,4 @@
     appearance: none;
     border-radius: 0;
   }
-
 </style>
