@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center bg-primary">
+  <div class="flex flex-col items-center bg-primary p-4">
     <BlogPost
       title="Tweet Sentiment Analysis: Exploring Temporal Patterns"
       about="test about section that reads like this"
