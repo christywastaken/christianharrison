@@ -3,7 +3,11 @@
     <div class="font-semibold">
       <NuxtLink :to="{ name: 'index' }">Christian Harrison</NuxtLink>
     </div>
-    <NavigationMobileHeader class="block md:hidden" />
-    <NavigationDesktopHeader class="hidden md:block" />
+    <div class="hidden md:block">
+      <NavigationDesktopHeader />
+    </div>
+    <div class="block md:hidden">
+      <NavigationMobileHeader />
+    </div>
   </div>
 </template>
