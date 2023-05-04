@@ -5,11 +5,3 @@
   </div>
 </template>
 
-<style scoped>
-  .mountains-bg {
-    background-image: url(assets/png/mountains3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-</style>
