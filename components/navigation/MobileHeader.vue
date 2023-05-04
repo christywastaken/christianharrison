@@ -1,7 +1,7 @@
 
 <template>
   <button class="flex items-center justify-center w-12 h-12 rounded-full z-10" @click="toggleMobileMenu">
-    <Icon name="menu" class="m-4 h-6 w-6 fill-black hover:fill-gray-500" />
+    <Icon name="menu" class="m-4 h-6 w-6 fill-white hover:fill-gray-500" />
   </button>
   <transition name="slide">
     <NavigationSideMenu v-if="navMenuActive" id="dropdown" class="fixed flex" @click="toggleMobileMenu" />

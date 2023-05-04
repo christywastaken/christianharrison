@@ -1,4 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-primary">
+  <div>
+    <div class="text-white">Some text - index.vue</div>
   </div>
 </template>
