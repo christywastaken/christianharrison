@@ -1,17 +1,13 @@
 <template>
   <div class="bg-primary mountains-bg min-h-screen">
     <Header class="sticky top-0" />
-    
+      <div class="text-white">
+      </div>  
       <NuxtPage />
     
   </div>
 </template>
 
-<script lang="ts">
-
-const router = useRouter
-
-</script>
 
 <style scoped>
   .mountains-bg {
