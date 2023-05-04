@@ -19,11 +19,4 @@
   </div>
 </template>
 
-<style scoped>
-  .mountains-bg {
-    background-image: url(assets/png/mountains2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-</style>
+
