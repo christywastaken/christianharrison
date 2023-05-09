@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary min-h-screen">
     <Header class="sticky top-0" />
-    <NuxtPage class="md:-mt-32"/>
+    <NuxtPage />
   </div>
 </template>
 

@@ -1,8 +1,6 @@
 <template>
-  <div class="min-h-screen">
-    <div class="mx-auto container">
-      <h1 class="text-3xl font-bold underline"></h1>
-      <ContactForm />
-    </div>
+  <div class="flex flex-col justify-center min-h-screen -mt-48 md:-mt-96">
+    <h2 class="flex justify-center text-white font-semibold text-xl"> Get in touch below.</h2>
+    <ContactForm class="md:mx-[20%] mx-[5%]" />
   </div>
 </template>

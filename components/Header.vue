@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <img src="@/assets/png/mountains3.png" class="h-32 md:h-auto w-full" />
+    <img src="@/assets/png/mountains4.png" class="h-32 md:h-auto w-full" />
     <nav class="absolute top-0 w-full flex justify-between items-center text-white px-[10%] h-12 bg-transparent">
       <div class="font-semibold hidden md:block">
         <NuxtLink :to="{ name: 'index' }">Christian Harrison</NuxtLink>

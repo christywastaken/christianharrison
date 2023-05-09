@@ -29,7 +29,7 @@
       autocomplete="off"
     />
 
-    <button class="flex items-center justify-center rounded-md px-8 bg-slate-100" type="submit">
+    <button class="flex items-center justify-center rounded-md mt-8 px-8 bg-slate-100" type="submit">
       Send <Icon name="paperplane" class="m-2 h-4 w-4 stroke-black"></Icon>
     </button>
   </form>
