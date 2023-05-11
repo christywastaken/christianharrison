@@ -1,7 +1,18 @@
 <template>
-  <div class="bg-primary min-h-screen">
-    <Header class="sticky top-0" />
-    <NuxtPage />
+  <div class="overflow-scroll bg-primary h-screen w-full bg-contain mountain-background" >
+    <Header class="sticky top-0"/>
+    <!-- <img src="@/assets/png/mountains5.png" class="h-32 md:h-auto w-full top-12 z-10" /> -->
+    <NuxtPage class="z-50"/>
   </div>
 </template>
+
+<style scoped>
+  .mountain-background {
+    background-image: url('@/assets/png/mountains5.png');
+    background-position: 0px 48px;
+    background-repeat: no-repeat;
+  }
+
+</style>
+
 

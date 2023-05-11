@@ -1,7 +1,6 @@
 <template>
-  <div class="relative">
-    <img src="@/assets/png/mountains4.png" class="h-32 md:h-auto w-full" />
-    <nav class="absolute top-0 w-full flex justify-between items-center text-white px-[10%] h-12 bg-transparent">
+  <div class="flex flex-col">
+    <nav class="w-full flex justify-between items-center text-white px-[10%] h-12 bg-primary-70 backdrop-blur-lg supports-backdrop-blur:bg-white/60">
       <div class="font-semibold hidden md:block">
         <NuxtLink :to="{ name: 'index' }">Christian Harrison</NuxtLink>
       </div>
@@ -16,7 +15,6 @@
         <NavigationMobileHeader />
       </div>
     </nav>
+    <!-- <img src="@/assets/png/mountains5.png" class="h-32 md:h-auto w-full absolute top-12" /> -->
   </div>
 </template>
-
-
