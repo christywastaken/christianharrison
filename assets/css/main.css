@@ -15,10 +15,11 @@
 }
 
 .bg-glass {
-  background: rgba(255, 255, 255, 0.331);
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(11.6px);
 }
+
 
 @layer utilities {
     .white-shadow {
