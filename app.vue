@@ -2,18 +2,10 @@
   <div class="overflow-scroll bg-primary h-screen w-full bg-contain mountain-background relative" >
     <div class="fixed top-0 left-0 right-0 h-12 backdrop-blur-xl z-10"></div>
     <Header class="sticky top-0 z-20"/>
-    <!-- <img src="@/assets/png/mountains5.png" class="h-32 md:h-auto w-full top-12 z-10" /> -->
     <NuxtPage class="z-50"/>
   </div>
 </template>
 
-<!-- <template>
-  <div class="overflow-scroll bg-primary h-screen w-full bg-contain mountain-background" >
-    <Header class="sticky top-0"/>
-    <img src="@/assets/png/mountains5.png" class="h-32 md:h-auto w-full top-12 z-10" />
-    <NuxtPage class="z-50"/>
-  </div>
-</template> -->
 
 <style scoped>
   .mountain-background {
