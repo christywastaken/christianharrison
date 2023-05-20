@@ -12,12 +12,12 @@
             v-for="(item, index) in stackImagesArray"
             :key="index"
             :src="`/stack-images/${item}.svg`"
-            class="h-11 w-11"
+            class="h-1/12 w-1/12"
           />
         </div>
       </div>
-      <div class="w-64 h-64">
-        <img src="/misc/profile-pic.png" class="w-full h-full object-contain" />
+      <div class="flex w-64 h-64 items-center">
+        <img src="/misc/profile-pic.png" class="flex w-full h-full object-contain items-center" />
       </div>
     </div>
   </div>
