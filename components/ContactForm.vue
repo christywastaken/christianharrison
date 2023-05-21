@@ -30,7 +30,7 @@
     />
 
     
-    <button class="flex items-center justify-center rounded-md mt-8 px-8 bg-slate-100" type="submit">
+    <button class="flex items-center justify-center rounded-md mt-8 px-8 bg-slate-100 disabled:bg-slate-400" :disabled="requestStatus.waiting" type="submit">
       {{ buttonText }} <Icon v-if="!requestStatus.waiting" name="paperplane" class="m-2 h-4 w-4 stroke-black"></Icon> <Icon v-if="requestStatus.waiting" name="spinner" class="m-2 h-4 w-4 fill-black icon-spin"></Icon>
     </button>
   </form>
@@ -52,6 +52,7 @@
   const buttonText = computed(() => {
     return requestStatus.value.waiting ? 'Sending' : 'Send'
   })
+
 
   const form = ref({
     name: "",
