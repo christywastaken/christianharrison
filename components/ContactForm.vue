@@ -54,7 +54,7 @@
       Oh dear. There was a problem submitting your request. Refresh the page and try again.<br /><br />
       If that doesn't fix it, contact me on my GitHub:
       <a href="https://github.com/christywastaken" target="_blank" class="hover:text-gray-400"
-        ><u><i>https://github.com/christywastaken</i></u></a
+        ><u><i>github.com/christywastaken</i></u></a
       >
     </h2>
   </div>
