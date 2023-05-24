@@ -32,7 +32,7 @@
     </div>
     <a
       href="https://github.com/christywastaken"
-      class="flex flex-row justify-center items-center text-white hover:text-gray-400 mt-8"
+      class="flex flex-row justify-center items-center text-slate-50 hover:text-gray-400 mt-8"
       target="_blank"
       ><img src="/stack-images/github-mark-white.svg" class="flex object-contain pe-4 h-7 flex-row" />
       <u>github.com/christywastaken</u></a
