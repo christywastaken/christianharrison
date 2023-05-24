@@ -6,7 +6,7 @@
       <h2 class="md:text-3xl text-xl font-bold">{{ title }}</h2>
       <div class="flex flex-row justify-center pt-4">
         <p class="w-1/2 mb-4 text-sm pe-4" v-html="about"></p>
-        <img :src="imageSrc" class="w-1/2 object-contain rounded-md" />
+        <img :src="imageSrc" class=" w-1/2 h-auto rounded-md" />
       </div>
     </a>
   </div>
