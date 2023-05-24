@@ -1,9 +1,11 @@
 <template>
-  <div class="flex flex-col md:mt-60 mt-20 items-center justify-center mx-[10%]">
-    <div class="flex flex-row items-center justify-center max-h-64">
-      <div class="flex flex-col px-8 w-1/2  mx-20">
-        <div class="text-white italic text-lg">
-          My whole life I have loved technology. Since graduating Uni I have been working in events but, as enjoyable as it is, I feel the time has come to move on. In Jan '23 I started my journey into software engineering. This website acts to showcase my learning and growth. 
+  <div class="flex flex-col 2xl:mt-80 md:mt-60 mt-20 items-center justify-center mx-[10%]">
+    <div class="flex flex-row items-center justify-center max-w-7xl">
+      <div class="flex flex-col px-8 w-1/2 mx-20">
+        <div class="text-slate-50 italic text-lg">
+          My whole life I have loved technology. Since graduating Uni I have been working in events but, as enjoyable as
+          it is, I feel the time has come to move on. In Jan '23 I started my journey into software engineering. This
+          website acts to showcase my learning and growth.
         </div>
         <div class="flex flex-row mt-12">
           <img
@@ -19,7 +21,7 @@
             class="flex flex-row items-center hover:text-gray-400"
             target="_blank"
             ><img src="/stack-images/github-mark-white.svg" class="flex object-contain pe-4 h-7 flex-row" />
-             <u>github.com/christywastaken</u></a
+            <u>github.com/christywastaken</u></a
           >
         </div>
       </div>

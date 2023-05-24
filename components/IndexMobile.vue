@@ -1,9 +1,10 @@
 <template>
   <div class="flex flex-col mt-20">
     <div class="flex flex-col p-6">
-      <div class="text-white italic text-lg justify-center text-center">
-        Driven by a lifelong fascination with technology, I began my journey into software engineering in January 2023.
-        With a passion for using technology to make a positive impact, I am eager to continue learning and growing.
+      <div class="text-slate-50 italic text-lg justify-center text-center">
+        My whole life I have loved technology. Since graduating Uni I have been working in events but, as enjoyable as
+        it is, I feel the time has come to move on. In Jan '23 I started my journey into software engineering. This
+        website acts to showcase my learning and growth.
       </div>
     </div>
     <div class="flex flex-row items-center justify-center mx-6">
