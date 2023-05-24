@@ -3,9 +3,7 @@
     <div class="flex flex-row items-center justify-center max-h-64">
       <div class="flex flex-col px-8 w-1/2  mx-20">
         <div class="text-white italic text-lg">
-          Driven by a lifelong fascination with technology, I began my journey into software engineering in January
-          2023. With a passion for using technology to make a positive impact, I am eager to continue learning and
-          growing.
+          My whole life I have loved technology. Since graduating Uni I have been working in events but, as enjoyable as it is, I feel the time has come to move on. In Jan '23 I started my journey into software engineering. This website acts to showcase my learning and growth. 
         </div>
         <div class="flex flex-row mt-12">
           <img
