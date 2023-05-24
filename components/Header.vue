@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <nav class="w-full flex justify-between items-center text-white px-[10%] h-12 bg-primary-70">
-      <div class="font-semibold hidden sm:block">
+      <div class="font-semibold hidden sm:block text-slate-50">
         <NuxtLink :to="{ name: 'index' }">Christian Harrison</NuxtLink>
       </div>
 

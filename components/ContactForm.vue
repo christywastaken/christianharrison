@@ -6,7 +6,7 @@
         class="flex flex-col items-center justify-center px-4 py-4"
         @submit.prevent="submitForm"
       >
-        <h2 class="header-text">Get in touch below.</h2>
+        <h2 class="header-text text-slate-50">Get in touch below.</h2>
         <input
           class="input-field focus:outline-none focus:bg-transparent"
           type="text"
