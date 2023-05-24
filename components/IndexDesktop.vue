@@ -20,7 +20,7 @@
             href="https://github.com/christywastaken"
             class="flex flex-row items-center hover:text-gray-400"
             target="_blank"
-            ><img src="misc/GitHub_Logo_White.png" class="flex object-contain h-7 flex-row" />
+            ><img src="/misc/GitHub_Logo_White.png" class="flex object-contain h-7 flex-row" />
              <u>github.com/christywastaken</u></a
           >
         </div>

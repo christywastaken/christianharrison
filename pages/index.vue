@@ -1,6 +1,6 @@
 <template>
   <div>
-   <DesktopIndex class="hidden md:flex" />
-   <MobileIndex class="flex md:hidden" />
+   <IndexDesktop class="hidden md:flex" />
+   <IndexMobile class="flex md:hidden" />
   </div>
 </template>
