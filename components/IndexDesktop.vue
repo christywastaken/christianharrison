@@ -3,9 +3,9 @@
     <div class="flex flex-row items-center justify-center max-w-7xl">
       <div class="flex flex-col px-8 w-1/2 mx-20">
         <div class="text-slate-50 italic text-lg">
-          My whole life I have loved technology. Since graduating Uni I have been working in events but, as enjoyable as
-          it is, I feel the time has come to move on. In Jan '23 I started my journey into software engineering. This
-          website acts to showcase my learning and growth.
+          My whole life I have loved technology. Since graduating I have been helping run an events structures
+        company but, as enjoyable as it is, the time has come to move on. In Jan '23 I started my journey into
+        software engineering. This website acts to showcase my learning and growth.
         </div>
         <div class="flex flex-row mt-12">
           <img
