@@ -42,7 +42,7 @@ export const blogPostItems: BlogPostItem[] = [
 { 
   title:"iOS App for SendJoy Backend Utilities", 
   about:"After fiddling with Retool and realising it didn't have the functionality to support my needs, I made this iOS app using Swift (another great learning opportunity).<br/><br/>This app allows me to control some of the SendJoy backend utilities when I'm AFK.<br/><br/>Messages that don't pass our benchmark for positive sentiment land in this app for manual review.<br/><br/>This app is also used for vetting the messages I feed into the Flask API for posting on social media.", 
-  link:"https://github.com/christywastaken/", 
+  link:"https://github.com/christywastaken/sendjoy-ios-clone", 
   image:"/blog_post_images/ios-app-sendjoy.png"
 },
 ];
