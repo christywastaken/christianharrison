@@ -15,6 +15,7 @@
     background-image: url('@/assets/png/mountains5.png');
     background-position: 0px 48px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 </style>
