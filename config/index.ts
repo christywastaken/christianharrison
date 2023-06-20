@@ -9,6 +9,12 @@ export const menuItems: MenuItem[] = [
 ];
 
 export const blogPostItems: BlogPostItem[] = [
+  { 
+  title:"Raspberry Pi to Display iRacing Telemtry Data", 
+  about:`This iRacing LED Display project was great fun, getting hands-on with a Raspberry Pi and learning to link hardware and software. In this project, I also learned about socket programming, which was new but very interesting.<br><br>The project consists of a client app, running on the Raspberry Pi, and a server app on my PC. The two chat with each other via sockets to make the LED Display show real-time iRacing data.<br><br>While it might look simple, this project is proof of my ability to learn, adapt, and create.`, 
+  link:"https://github.com/christywastaken/iracing-led-matrix", 
+  image: "/blog_post_images/iracing-led-matrix.png" 
+},
 { 
   title:"This Website", 
   about:`This website serves as both a learning experience and a portfolio to showcase my learning.<br/><br/>I'm trying to work with many different technologies. Building web apps has been a great help in broadening my base knowledge.<br/><br/>Additionally, although it may not look it, it has been a good opportunity to learn design in Figma.<br/><br/>This website is universally rendered using Nuxt3 and deployed on Vercel (wow, that was easy!)`, 
